@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Services";
+}
+
+<html>
+<head>
+    <link href="~/css/style.css" rel="stylesheet" />
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/responsiveslides.min.js"></script>
+    <a href="~/fonts/glyphicons-halflings-regular.eot"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.ttf"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.woff"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.woff2"></a>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="header">
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>MPHASIS </h1>
+                        <h2>AIRLINES</h2>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li class="active"><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="header_bottom">
+
+                <script src="js/jquery.min.js"></script>
+                <script src="js/responsiveslides.min.js"></script>
+                <script>// You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+         auto: true,
+		 nav: true,
+		 speed: 500,
+		 namespace: "callbacks",
+      });
+    });</script>
+               
+            </div>
+        </div>
+        
+                    <div class="about_data">
+                        <div class="about_desc">
+                            <h1><b>Our Services</b></h1>
+
+                            <div class="service1" style="width:18rem">
+                                <img src="~/images/city.png" style="height:100px" ; width="100" alt="" />
+                                <div class="card1">
+                                    <h5 class="card-title1">Airport Finder</h5>
+                                    <p class="card-text1">Here, You can find ythe airports between Two Cities.</p>
+                                    <div class="read_more"> <h3><a href="#">EXPLORE</a></h3> </div>
+                                </div>
+                                <div class="serv_desc">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+
+                            <div class="service2" style="width:18rem">
+                                <img src="~/images/state.png" style="height:100px" ; width="678" alt="" />
+                                <div class="card1">
+                                    <h5 class="card-title1">air</h5>
+                                    <p class="card-text1">fbhgfxhgfhfghfghfghf</p>
+                                    <div class="read_more"> <h3><a href="#">EXPLORE</a></h3> </div>
+                                </div>
+                                <div class="serv_desc">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+          
+        <div class="footer">
+                <div class="clear"></div>
+            </div>
+            <div class="copy_right">
+                <p> © 2023 Mphasis Airlines. All Rights Reserved.</p>
+            </div>
+   
+</body>
+</html>
